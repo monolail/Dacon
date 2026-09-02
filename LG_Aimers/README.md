@@ -35,3 +35,7 @@
 - 트리 기반의 강력한 3대장 알고리즘인 **LightGBM, XGBoost, CatBoost**를 모두 사용했습니다.
 - 하이퍼파라미터를 극한으로 조율하여 `n_estimators=1500`, `learning_rate=0.01`로 깊고 촘촘하게 학습시켰습니다.
 - 모델당 10개의 Random Seed를 부여하여 **총 30개의 정밀 트리 모델**을 생성하고, 다수결(Soft Voting)을 통해 앙상블을 수행함으로써 일반화 성능을 극대화하고 오차 분산을 소멸시켰습니다.
+
+## 4. 참고 문헌 (References)
+- [야구 룰 교과서 : 선수와 팬을 위한 야구 규칙 완벽 가이드 / Formosa, Dan]
+- [타격의 과학 / Williams, Ted]
